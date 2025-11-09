@@ -27,6 +27,7 @@ services:
     image: nelepindmitriy/grid-lab-image
     environment:
       - MONGODB_URI=${MONGODB_URI}
+      - PORT=8080
     restart: always
 
   frontend:
