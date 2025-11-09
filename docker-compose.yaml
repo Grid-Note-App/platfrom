@@ -11,7 +11,7 @@ services:
     restart: always
 
   note-chat-service:
-    image: zaranik/note-chat-service:latest
+    image: zaranik/grid-note-chat-service:latest
     environment:
       - MONGODB_URI=${MONGODB_URI}
       - GEMINI_API_KEY=${GEMINI_API_KEY}
